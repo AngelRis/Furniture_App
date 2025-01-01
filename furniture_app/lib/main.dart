@@ -19,6 +19,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: SplashScreen(),
+      theme: ThemeData(
+          fontFamily: 'Poppins'
+      ),
     );
   }
 }
